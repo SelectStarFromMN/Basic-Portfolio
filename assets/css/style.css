@@ -1,6 +1,6 @@
 
 body {
-    background-image: url('../images/vintage-concrete.png');
+    background-image: url('../images/concrete-texture.png');
     border: 0;
     margin: 0;
     padding: 0;
@@ -56,9 +56,18 @@ nav li a {
     color: #cccccc;
 }
 
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
 section {
     background-color: #ffffff;
     padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border: 1px solid #dddddd;
 }
 
 h1 {
@@ -66,23 +75,28 @@ h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+.h1abt {
+    border-bottom: solid 2px #dddddd;
+    padding-bottom: 25px;
+}
+
 .selfie {
     height: 200px;
     width: 250px;
     float: left;
-    margin: 0 10px 10px 0;
+    margin: 0 20px 10px 0;
 }
 
 footer {
-    height: 50px;
-    /* line-height: 15px; */
+    height: 55px;
     text-align: center;
     background: #666666;
     color: #ffffff;
-    border-top: 3px solid #4aaaa5;
+    border-top: 5px solid #4aaaa5;
 }
 
 .copyrt {
     position: relative;
-    bottom: -15px;
+    bottom: -25px;
+    font-size: 75%;
 }
