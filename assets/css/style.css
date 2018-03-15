@@ -100,3 +100,32 @@ footer {
     bottom: -25px;
     font-size: 75%;
 }
+
+/* .foliotainer {
+    position: relative;
+} */
+
+.proj {
+    height: 200px;
+    width: 250px;
+    display: inline-block;
+    border: 1px solid red;
+}
+
+.projlnk {
+    height: 200px;
+    width: 250px;
+    margin: 0 20px 10px 0;
+}
+
+.projlabel {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    position: relative;
+    top: 200px;
+    line-height: 40px;
+    /* z-index: 1; */
+    /* display: none; */
+}
