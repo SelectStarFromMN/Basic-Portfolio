@@ -8,12 +8,12 @@ body {
 
 .all{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
 }
 
 .ribbon {
     height: 70px;
     line-height: 70px;
-    /* margin: 0 auto; */
     background: white;
     border-bottom: 3px solid lightgray;
 }
@@ -28,18 +28,12 @@ main {
     margin: 0 auto;
 }
 
-/* .headcontainer::after {
-    content: "";
-    display: block;
-    clear: both;
-} */
-
 .headstone {
     float: left;
     color: white;
     padding: 0 20px 0 20px;
+    margin: 0;
     background-color: #4aaaa5;
-    font-size: 24px;
 }
 
 nav {
@@ -69,4 +63,26 @@ section {
 
 h1 {
     color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.selfie {
+    height: 200px;
+    width: 250px;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+footer {
+    height: 50px;
+    /* line-height: 15px; */
+    text-align: center;
+    background: #666666;
+    color: #ffffff;
+    border-top: 3px solid #4aaaa5;
+}
+
+.copyrt {
+    position: relative;
+    bottom: -15px;
 }
