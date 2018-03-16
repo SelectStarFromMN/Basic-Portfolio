@@ -101,21 +101,23 @@ footer {
     font-size: 75%;
 }
 
-/* .foliotainer {
+.foliotainer {
     position: relative;
-} */
+} 
 
 .proj {
     height: 200px;
     width: 250px;
     display: inline-block;
-    border: 1px solid red;
+    position: relative;
+    /* top: 200px; */
+    /* border: 1px solid red; */
 }
 
 .projlnk {
     height: 200px;
     width: 250px;
-    margin: 0 20px 10px 0;
+    /* margin: 0 20px 10px 0; */
 }
 
 .projlabel {
@@ -123,9 +125,28 @@ footer {
     text-align: center;
     color: #ffffff;
     background-color: #4aaaa5;
-    position: relative;
-    top: 200px;
+    position: absolute;
+    bottom: 10px;
     line-height: 40px;
+    left: 0;
+    right: 0;
+    margin: 0;
     /* z-index: 1; */
     /* display: none; */
+}
+
+.projlabel a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
 }
